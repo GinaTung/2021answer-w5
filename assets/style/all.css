@@ -100,6 +100,9 @@ body {
 .p-5 {
   padding-left: 12px; }
 
+.p-6 {
+  padding: 0 0 12px 12px; }
+
 /*  選單欄  */
 .Menu {
   width: 296px;
@@ -228,6 +231,16 @@ body {
     border: 1px solid #CED4DA;
     width: 600px;
     background: #F8F9FA; }
+    .content-right .table-list1 .td-icon {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
   .content-right .container-right2 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -246,6 +259,7 @@ body {
   border-bottom: 1px solid #CED4DA;
   border-top: 1px solid #CED4DA;
   border-right: 1px solid #CED4DA;
+  padding-right: 30px;
   /* 夾帶檔案 */ }
   .table-list2 img {
     width: 40px;
@@ -270,6 +284,16 @@ body {
         text-decoration: none;
         color: #212529;
         font-size: 16px; }
+  .table-list2 .td-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
 
 .test {
   display: -webkit-box;
