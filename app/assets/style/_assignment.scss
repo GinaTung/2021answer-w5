@@ -77,7 +77,11 @@
       border: 1px solid $bd-wh;
       width: 600px;
       background: $bg-wh;
-
+      .td-icon{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
 
     }
     .container-right2{
@@ -103,6 +107,7 @@
     border-bottom: 1px solid $bd-wh;
     border-top: 1px solid $bd-wh;
     border-right: 1px solid $bd-wh;
+    padding-right: 30px;
     img{
       width:40px;
       height:40px;
@@ -133,6 +138,11 @@
         font-size: $fz-3;
       }
     }
+  }
+  .td-icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 }
 
