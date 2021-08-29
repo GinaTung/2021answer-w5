@@ -1,0 +1,167 @@
+---
+title: 管理者後台
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
+
+
+<!-- 主要內容 -->
+<div class="content-main">
+      <div class="main-up">
+        <ul class="items">
+          <li>
+            <p class="fw-b">Assignment</p>        
+          </li>
+            <li>
+              <p>All Courses</p>
+              <p class="material-icons-outlined">expand_more</p>
+            </li>
+        </ul>
+        <ul class="search">
+          <li><span class="material-icons">search</span></li>
+          <li><span class="material-icons">notifications_active</span></li>
+        </ul>
+  
+      </div>
+      <!-- /* 內容左側訊息 */ -->
+    <div class="messagelist">
+      <div class="message-items">
+        <span>
+        <p>All(4)</p>
+        <p class="material-icons-outlined">expand_more</p>
+          </span>
+  
+  <table class="table-list table-bg">
+            <tr class="style">
+              <td class="fz-1 co-bla p-1">Chapter Assignment 2</td>
+              <td class="ta-r fz-1 co-bla p-3">4 hrs ago</td>
+            </tr>
+            <tr>
+              <th class="fz-3 ta-l co-bla p-2">Please check this file…</th>
+              <td class="ta-r fz-1 co-gra p-3">Emily Wang</td>
+            </tr>
+    
+          </table>
+  <table class="table-list">
+            <tr class="style">
+              <td class="fz-1 co-bla p-1">Chapter Assignment 1</td>
+              <td class="ta-r fz-1 co-bla p-3">12 hrs ago</td>
+            </tr>
+            <tr>
+              <th class="fz-3 ta-l co-bla p-2">My Homework</th>
+              <td class="ta-r fz-1 co-gra p-3">David Xu</td>
+            </tr>
+    
+          </table>
+  <table class="table-list">
+            <tr class="style">
+              <td class="fz-1 co-bla p-1">Final Assignment</td>
+              <td class="ta-r fz-1 co-bla p-3">18 hrs ago</td>
+            </tr>
+            <tr>
+              <th class="fz-3 ta-l co-bla p-2">Have a problem with this…</th>
+              <td class="ta-r fz-1 co-gra p-3">Tony Wei</td>
+            </tr>
+    
+          </table>
+  <table class="table-list">
+            <tr class="style">
+              <td class="fz-1 co-bla p-1">Chapter Assignment 2</td>
+              <td class="ta-r fz-1 co-bla p-3">4 hrs ago</td>
+            </tr>
+            <tr>
+              <th class="fz-3 ta-l co-bla p-2">Please check this file…</th>
+              <td class="ta-r fz-1 co-gra p-3">Emily Wang</td>
+            </tr>
+    
+          </table>
+      </div>
+      <!-- 訊息展開後詳細內容 -->
+          <div class="content-right">
+  
+             <p>2 comments</p>
+        
+            <table class="table-list1">
+            <tr>
+              <td class="fz-1 co-gra p-1">Chapter Assignment 2 / HTML&CSS</td>
+
+              <td rowspan="2" class="ta-r fz-1 co-bla"><span class="material-icons">more_vert</span></td>
+            </tr>
+            <tr>
+              <td class="fz-3 ta-l co-bla p-2">Please check this file…</td>
+             
+            </tr>
+  
+            </table>
+            <div class="container-right2">
+            <table class="table-list3">
+                <tr class="test">
+               <td rowspan="2" class="fz-1 co-bla p-3"><img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/week5/emilywang.jpeg?raw=true" alt="emilywang"></td>
+               <td rowspan="2" class="fz-1 co-bla p-3"><img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/week5/andychen.jpeg?raw=true" alt="andychen"></td>
+                     
+            </tr>
+            </table>
+              <table class="table-list2">
+                <tr>
+              <td class="fz-3 co-bla p-1">Emily Wang</td></tr>
+            
+            <tr>
+              <th class="fz-1 ta-l co-gra p-5">10:38 AM (4 hours ago)</th>
+            </tr>
+            <tr>
+              <td class="fz-2 co-bla p-4">Hi Teacher, the attached file is my homework of chapter 2. And here comes a <br>question: Why in the following code the height of the div is bigger than the <br>height of the img ? There is a gap below the image, but it doesn’t seems to be a padding/margin.<br> What is the gap or extra space below image?</td>
+             
+            </tr>
+              <tr> 
+                <td>
+                  <div class="file">
+                  <a href="#">
+                    <span class="material-icons">attach_file</span>HW-2-David.zip</a>
+                  </div>
+                  <hr>
+                </td>
+              </tr>
+  
+                 <tr>
+                     
+            </tr>
+                 <tr>
+              <td class="fz-3 co-bla p-5">Andy Chen (You)</td>
+              <td rowspan="2" class="ta-r fz-1 co-bla">
+                <span class="material-icons-outlined">
+                grade </span>
+                <span class="material-icons">
+                  edit  </span></td>
+            </tr>
+            
+            <tr>
+              <th class="fz-1 ta-l co-gra p-5">13:24 AM (1 hours ago)</th>
+            </tr>
+            <tr>  
+              <td class="text-gn fz-2 co-bla p-4">Hi David, by default, an image is rendered inline, like a letter so it sits on the <br>same line that a, b, c and d sit on. There is space below that line for the <br>descenders you find on letters like g, j, p and q. <br>You can: <br><br>　• adjust the <a href="#">vertical-align</a>  of the image to position it elsewhere (e.g. the <a href="#">middle</a>  ) or <br>　• change the <a href="#">display</a>  so it isn’t inline.</td>
+             
+            </tr>
+  
+            </table>
+          </div>
+          <div class="page-bottom">
+            <ul>
+              <li>
+                <span class="material-icons-outlined">chevron_left</span>
+                <span class="material-icons-outlined">chevron_right</span>
+              </li>
+            </ul>
+            <ul>
+              <li class="button-m">
+                <a href="#">Mark as read</a>
+              </li>
+              <li class="button-r">
+                <a href="#">Reply</a>
+              </li>
+            </ul>
+          </div>
+            
+          </div>
+    </div>
+</div>

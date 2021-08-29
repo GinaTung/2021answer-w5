@@ -1,0 +1,186 @@
+  /*  主要內容  */
+
+  .main-up{
+    height:93px;
+    align-items: center;
+    display: flex;
+    margin: 0 0 0 32px;
+    justify-content: space-between;
+    .items{
+      display: flex;
+      li{
+        display: flex;
+        padding:0 26px 0 0px;
+        p{
+          padding:0 8px 0 0;
+        }
+        .material-icons-outlined:hover{
+          color:#198754 ;
+        }
+        .fw-b{
+          font-weight: $fw-bold;
+          
+        }
+      }
+    }
+    .search{
+      display: flex;
+      li{
+        display: flex;
+        padding:0  0 0px 26px;
+        p{
+          padding:0 8px 0 0;
+        }
+        .fw-b{
+          font-weight: $fw-bold;
+          
+        }
+      }
+    }
+  }
+  
+
+
+/* 內容左側訊息 */
+.messagelist{
+    display: flex;
+    .message-items span{
+      padding: 12px 0 0 33px;
+      display: flex;
+      margin-bottom: 8px;
+      .material-icons-outlined:hover{
+        color:#198754 ;
+      } 
+ }
+ .table-list{
+  border: 1px solid $bd-wh;
+  width:320px;
+  margin: 0 0 0 33px;
+
+  }
+}
+  
+  
+  
+  
+
+  /*  訊息展開後詳細內容  */
+.content-right{
+    width: 600px;
+    margin-left: 16px;
+    p{
+      text-align: right;
+      font-size: $fz-1;
+      margin:24px 0 8px 0;
+    }
+    .table-list1{
+      border: 1px solid $bd-wh;
+      width: 600px;
+      background: $bg-wh;
+
+
+    }
+    .container-right2{
+      display: flex;
+      .table-list3{
+        border-top: 1px solid $bd-wh;
+        border-left: 1px solid $bd-wh;
+        border-bottom: 1px solid $bd-wh;
+        img{
+          width:40px;
+          height:40px;
+          border-radius: 50%;
+          margin:16px 0 0 16px;
+        }
+      }
+    }
+}
+ 
+ 
+  
+
+  .table-list2{
+    border-bottom: 1px solid $bd-wh;
+    border-top: 1px solid $bd-wh;
+    border-right: 1px solid $bd-wh;
+    img{
+      width:40px;
+      height:40px;
+      border-radius: 50%;
+      margin:16px 0 0 16px;
+    }
+    .text-gn{
+      a{
+        color:#198754 ;
+        text-decoration: none;
+      }
+    }
+      /* 夾帶檔案 */
+  .file{
+    border: 1px solid $bd-wh;
+    background: $bg-wh;
+    width: 176px;
+    height: 40px;
+    a{
+      padding:5px;
+      text-decoration: none;
+      color: $co-bla;
+      font-size: $fz-3;
+      span{
+        padding:10px;
+        text-decoration: none;
+        color: $co-bla;
+        font-size: $fz-3;
+      }
+    }
+  }
+}
+
+
+
+
+  .test{
+      display: flex;
+      flex-direction: column;
+      td{
+        margin-bottom: 180px;
+  }
+  }
+  .page-bottom{
+      margin-top: 16px;
+      display: flex;
+      justify-content: space-between;
+      ul{
+        display: flex;
+        li span{
+          padding-right: 23px;
+      }
+    }
+  }
+ 
+
+  .button-m{
+    border:1px solid $bd-gn;
+    height: 35px;
+    margin-right:16px;
+    a{
+      text-decoration: none;
+      color: $co-gn;
+      font-size:  $fz-3;
+      display: block;
+      padding: 8px 32px;
+    }
+  }
+  .button-r{
+    background: $bg-gn;
+    height: 35px;
+    a{
+      text-decoration: none;
+      color: $co-wh;
+      border:1px solid $bd-gn;
+      font-size:  $fz-3;
+      display: block;
+      padding: 8px 32px;
+    }
+  }
+  

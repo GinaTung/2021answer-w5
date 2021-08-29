@@ -1,0 +1,68 @@
+body{
+    font-family: 'Regular' ,'Lato';
+  }
+    
+    
+    *, *::before, *::after {
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+  }
+  
+  .container{
+    display: flex;
+  }
+  
+  /* 文字顏色 */
+  .co-bla{
+    color: #212529;
+  }
+  .co-gra{
+    color: #6C757D;
+  }
+  /* 文字方向 */
+  .ta-r{
+    text-align: right;
+  }
+  .ta-l{
+    text-align: left;
+  }
+  /* 文字大小 */
+  .fz-3{
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .fz-1{
+    font-size: 12px;
+  }
+  .fz-2{
+    font-size: 14px;
+    line-height: 21px;
+  }
+  
+  /* 表格內背景顏色 */
+  .table-bg{
+    background: #F8F9FA;
+  }
+  /* 文字間距大小 */
+  .p-1{
+    padding:12px 0 0 12px;
+  }
+  .p-2{
+    padding:4px 0 12px 12px;
+  }
+  .p-3{
+    padding-right:12px;
+  }
+  .p-4{
+    padding:16px 0 16px 12px;
+  }
+  .p-5{
+      padding-left: 12px;
+  }
+  
+  
+  
+  
+  
+  
+  

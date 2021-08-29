@@ -7,18 +7,64 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title><%- title %></title>
   <link rel="stylesheet" href="./assets/style/all.css">
+
+  <!--符號 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <!-- 字型 -->
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'> 
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
 </head>
 
 <body>
-  <header class="header">
-    這是 header
-  </header>
-
-  <%- contents %>
-
-  <footer class="footer">
-    footer
-  </footer>
+  <div class="container">
+    <!-- 選單欄 -->
+    <div class="Menu">
+      <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/2b326fe971cd296bd54667a9b4a63c4b0f19fab3/week5/logo-ANSWER.svg" alt="ANSWER">
+      <ul>
+        <li>
+          <p class="material-icons">insert_chart </p>
+          <p>Dashboard</p>
+        </li>
+        <li>
+          <p class="material-icons">question_answer </p>
+          <p>Question</p>
+        </li>
+      </ul>
+      <ul class="p_hover">
+        <li>
+           <p class="material-icons"><a href="assignment.html">assignment </a></p>
+          <p><a href="assignment.html">Assignment</a></p>
+        </li>
+      </ul>
+      <ul>
+        <li>
+           <p class="material-icons">video_library</p>
+          <p>Course</p>
+        </li>
+        <li>
+           <p class="material-icons">people </p>
+          <p>Admin</p>
+        </li>
+        <li>
+           <p class="material-icons">settings</p>
+          <p>Settings</p>
+        </li>
+      </ul>
+      <ul class="menu-footer">
+        <li><img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/week5/andychen.jpeg?raw=true" alt="andychen"></li>
+        <li class="footer-p">
+          <p>Andy Chen</p>
+          <p>andy0401@mail.com</p>
+        </li>
+      </ul>
+    </div>
+    <%- contents %>
+  </div>
   <script src="./assets/js/vendors.js"></script>
   <script src="./assets/js/all.js"></script>
 </body>

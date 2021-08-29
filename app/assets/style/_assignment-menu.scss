@@ -1,0 +1,76 @@
+ /*  選單欄  */
+
+ .Menu{
+    width:296px;
+    height:800px;
+    background: $bg-wh;
+    img{
+      margin-bottom: 32px;
+      padding:32px 0 0 32px;
+    }
+    ul{
+      padding-left:32px;
+      li{
+        display: flex;
+        margin-bottom: 26px;
+        p{
+          margin:0 16px 0 5px;
+          font-size: $fz-3;   
+          
+        }
+      }
+    
+    }
+    .p_hover{
+      padding:0;
+      li{
+        padding:0 0 0 29px;
+        &:hover{
+          border-left:3px solid  $bd-gn;
+        }
+        p{
+          &:hover{
+            color: $co-gn;
+          }
+        }
+        
+        a{
+          text-decoration: none;
+          color:black;
+          &:hover{
+            color: $co-gn;
+          }
+        }
+        
+      }
+      
+    }
+    .menu-footer{
+      display: flex;
+      margin-top: 362px;
+      li{
+        margin-right: 16px;
+        img{
+          width: 40px;
+          height: 40px;
+          display: block;
+          border-radius: 50%;
+          margin:0 0;
+          padding:0 0;
+         
+        }
+  
+      }
+      .footer-p{
+        display: flex;
+        flex-direction: column;
+        p{
+          margin-bottom: 4px;
+        }
+      }
+  
+    }
+  }
+  
+  
+  
